@@ -10,6 +10,9 @@ else:
     os.system(clear)
 
 print("ELOS is starting...")
+sleep(3)
+
+os.system(clear)
 
 print("ELOS [Build 1] Ever Lasting Project")
 print("(C) ELP ELOS License")
