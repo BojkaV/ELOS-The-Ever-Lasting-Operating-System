@@ -14,12 +14,24 @@ sleep(3)
 
 os.system(clear)
 
-print("ELOS [Build 1] Ever Lasting Project")
+print("ELOS 1 [Build 2] Ever Lasting Project")
 print("(C) ELP ELOS License")
 
 while True:
-    commands = []
-    com = input('>')
+    commands = ['help', 'shutdown']
+    com = input('> ')
+    if com.lower() not in commands:
+        print('Invalid Command')
+    if com.lower() == 'help':
+        print('Here are all available commands:')
+        print('help - lists all available commands')
+        print('shutdown - shuts down ELOS')
+    if com.lower() == 'shutdown':
+        os.system(clear)
+        print('ELOS is shutting down...')
+        sleep(3)
+        os.system(clear)
+        exit()
 
 sleep(3)
 
