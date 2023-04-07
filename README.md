@@ -6,7 +6,7 @@ This project is just an over-simplification of an operating system that I want t
 
 ## Usage
 
-To use the program you must have Python (Prefferably Python 3.11)
+To use the program you must have Python (Prefferably Python 3.11.2)
 
 Go to src/ and then click ELOS.py
 
